@@ -9,7 +9,7 @@ License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
 # Source0-md5:	2f59333b0d612ecaaaff90d3207094c9
-URL:		http://pear.horde.org/package/Horde_Log/
+URL:		https://github.com/horde/horde/tree/master/framework/Log/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR
