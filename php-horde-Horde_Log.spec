@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Logging library
 Name:		php-horde-Horde_Log
-Version:	1.1.0
+Version:	1.1.1
 Release:	1
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	57e41dcdb9a861a929c57905ce29726f
+# Source0-md5:	9201020e28718bd192e71e0e437b01f4
 URL:		https://github.com/horde/horde/tree/master/framework/Log/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
