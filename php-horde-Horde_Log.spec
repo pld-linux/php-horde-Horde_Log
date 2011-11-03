@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Logging library
 Name:		php-horde-Horde_Log
-Version:	1.1.1
+Version:	1.1.2
 Release:	1
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	9201020e28718bd192e71e0e437b01f4
+# Source0-md5:	59d263c5ac1cb93ae75275fdeaef8c63
 URL:		https://github.com/horde/horde/tree/master/framework/Log/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
@@ -58,8 +58,3 @@ rm -rf $RPM_BUILD_ROOT
 %{php_pear_dir}/.registry/.channel.*/*.reg
 %{php_pear_dir}/Horde/Log.php
 %{php_pear_dir}/Horde/Log
-# this lib dir seems wrong
-%dir %{php_pear_dir}/lib/Horde
-%dir %{php_pear_dir}/lib/Horde/Log
-%dir %{php_pear_dir}/lib/Horde/Log/Filter
-%{php_pear_dir}/lib/Horde/Log/Filter/ExactLevel.php
