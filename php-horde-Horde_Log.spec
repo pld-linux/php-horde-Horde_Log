@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Horde_Log
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Logging library
 Name:		php-horde-Horde_Log
 Version:	1.1.2
